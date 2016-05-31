@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.introtoandroid.appportfolio.MainActivity"
+    android:background="#ffdfeaf1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/textView"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="22dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POPULAR MOVIES"
+        android:id="@+id/btnMovies"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:minHeight="55dp"
+        android:background="#de8200"
+        android:textColor="#ffffff"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOCK HAWK"
+        android:layout_marginTop="4dp"
+        android:id="@+id/btnStock"
+        android:layout_below="@+id/btnMovies"
+        android:layout_alignLeft="@+id/btnMovies"
+        android:layout_alignStart="@+id/btnMovies"
+        android:layout_alignRight="@+id/btnMovies"
+        android:layout_alignEnd="@+id/btnMovies"
+        android:minHeight="55dp"
+        android:background="#de8200"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUILD IT BIGGER"
+        android:layout_marginTop="4dp"
+        android:id="@+id/btnBuildBigger"
+        android:layout_below="@+id/btnStock"
+        android:layout_alignLeft="@+id/btnStock"
+        android:layout_alignStart="@+id/btnStock"
+        android:layout_alignRight="@+id/btnStock"
+        android:layout_alignEnd="@+id/btnStock"
+        android:minHeight="55dp"
+        android:background="#de8200"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAKE YOUR APP MATERIAL"
+        android:layout_marginTop="4dp"
+        android:id="@+id/btnAppMat"
+        android:layout_below="@+id/btnBuildBigger"
+        android:layout_alignLeft="@+id/btnBuildBigger"
+        android:layout_alignStart="@+id/btnBuildBigger"
+        android:layout_alignRight="@+id/btnBuildBigger"
+        android:layout_alignEnd="@+id/btnBuildBigger"
+        android:minHeight="55dp"
+        android:background="#de8200"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO UBIQUITOUS"
+        android:layout_marginTop="4dp"
+        android:id="@+id/btnUbiq"
+        android:layout_below="@+id/btnAppMat"
+        android:layout_alignLeft="@+id/btnAppMat"
+        android:layout_alignStart="@+id/btnAppMat"
+        android:layout_alignRight="@+id/btnAppMat"
+        android:layout_alignEnd="@+id/btnAppMat"
+        android:minHeight="55dp"
+        android:background="#de8200"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAPSTONE"
+        android:layout_marginTop="4dp"
+        android:id="@+id/btnCapstone"
+        android:layout_below="@+id/btnUbiq"
+        android:layout_alignLeft="@+id/btnUbiq"
+        android:layout_alignStart="@+id/btnUbiq"
+        android:layout_alignRight="@+id/btnUbiq"
+        android:layout_alignEnd="@+id/btnUbiq"
+        android:minHeight="55dp"
+        android:background="#ca0000"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
